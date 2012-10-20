@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        rainbowwidget.cpp
+        rainbowwidget.cpp \
+    pixelswidget.cpp \
+    fixmath.c \
+    ibniz.cpp
 
-HEADERS  += rainbowwidget.h
+HEADERS  += rainbowwidget.h \
+    pixelswidget.h \
+    fixmath.h \
+    ibniz.h
 
 FORMS    += rainbowwidget.ui
